@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <title>Rock-Paper-Scissors</title>
+</head>
+
+<body>
+
+    <div class="container w-75 p-3">
+
+        <div class="row">
+            <div class="col text-center">
+
+                <h1>Player</h1>
+                <button type="button" class="btn btn-danger player">Rock</button>
+                <button type="button" class="btn btn-warning player">Paper</button>
+                <button type="button" class="btn btn-primary player">Scissors</button>
+                <img src="/images/Default.jpg" class="player-img">
+            </div>
+
+            <div class="col text-center">
+
+                <button type="button" class="btn btn-lg btn-block btn-dark newGamebtn">New Game</button>
+                <img src="images/Default.jpg" class="default-img">
+
+            </div>
+
+            <div class="col text-center">
+                <h1 class="CPU-Response"></h1>
+                <h1>CPU</h1>
+                <img src="/images/Default.jpg" class="cpu-img">
+            </div>
+        </div>
+
+        <div class="row ">
+            <div class="col text-center score-col">
+
+
+                <h1 class="Player-score">Player Score : 0</h1>
+
+            </div>
+            <div class="col text-center score-col">
+                <input type="number" placeholder="Set a Score" class="final-score">
+
+            </div>
+
+            <div class="col text-center score-col">
+                <h1 class="CPU-score">CPU Score : 0</h1>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
